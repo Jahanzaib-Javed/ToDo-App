@@ -13,6 +13,7 @@ function addTodo(){
     var delText = document.createTextNode("Delete")
     delBtn.appendChild(delText)
     delBtn.setAttribute("class","btn")
+    delBtn.setAttribute("class","btn-secondary")
     delBtn.setAttribute("onclick","delItem(this)")
     li.appendChild(delBtn)
     
@@ -20,6 +21,7 @@ function addTodo(){
     var editText = document.createTextNode("Edit")
     editBtn.appendChild(editText)
     editBtn.setAttribute("class","btn")
+    editBtn.setAttribute("class","btn-secondary")
     editBtn.setAttribute("onclick","editItem(this)")
     li.appendChild(editBtn)
 
